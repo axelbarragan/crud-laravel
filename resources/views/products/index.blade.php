@@ -7,7 +7,7 @@
   	Listado de productos
     <a href="{{ route('products.create') }}" class="btn btn-primary pull-right"> Nuevo</a>
   </h2>
-
+  @include('products.fragment.info')
   <table class="table table-hover table-striped">
   	<thead>
   		<tr>
@@ -47,7 +47,7 @@
   </div>
 
   <div class="col-sm-4">
-  	Mensaje
+  	@include('products.fragment.aside')
   </div>
 
 @endsection

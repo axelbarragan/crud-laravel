@@ -16,7 +16,7 @@
   </div>
 
   <div class="col-sm-4">
-  	Mensaje
+  	@include('products.fragment.aside')
   </div>
 
 @endsection
